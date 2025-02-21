@@ -1,6 +1,6 @@
 package constrcutordemo;
 
-public class ConstrcutorDemoExample {
+public class ConstrcutorDefaultExample {
 
     //global variable
     String name = "Java Automation";
@@ -9,14 +9,7 @@ public class ConstrcutorDemoExample {
 
     // constructor name should be same as the class name
     // default constrcutor - there is no parameter just the name of hte class is used
-    public ConstrcutorDemoExample(String name) {
-        // this is a keyword which will reference variable to the current instance
-        // Java Automaiton = demo run
-        this.name = name;
-        this.lastname = "sample last name";
-        this.address = "demo";
-        demoSample();
-
+    public ConstrcutorDefaultExample() {
     }
 
     public void demoSample() {
@@ -33,10 +26,7 @@ public class ConstrcutorDemoExample {
     public static void main(String[] args) {
         // why we will get error - becasue the constrcutor now has become a parameterised constrcutor
         //so the reference class is expecting a parameter to be passed
-        ConstrcutorDemoExample objectdemo = new ConstrcutorDemoExample("demo run");
+        ConstrcutorDefaultExample objectdemo = new ConstrcutorDefaultExample();
         objectdemo.demoApp();
-//        ConstrcutorDemoExample objectdemo1 = new ConstrcutorDemoExample("demo run 2");
-//        objectdemo1.demoApp();
-
     }
 }

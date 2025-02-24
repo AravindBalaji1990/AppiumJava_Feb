@@ -1,7 +1,8 @@
 package oops_inheritance;
 
-public class SampleChildClass extends SampleClass implements ISampleInterface{
+public class SampleChildClass extends SampleClass{
 
+    //child class
     public void multiply(){
         int a =3;
         int b =3;
@@ -9,17 +10,12 @@ public class SampleChildClass extends SampleClass implements ISampleInterface{
         System.out.println("the result of multiply : " + result);
     }
 
-    @Override
-    public void subtraction() {
-        int result = 9-8;
-        System.out.println("subtraciton result : " + result);
-    }
-
 
     public static void main(String[] args) {
-        SampleChildClass obj = new SampleChildClass();
-        obj.addition();
-        obj.multiply();
-        obj.subtraction();
+
+        SampleChildClass samplechildclass = new SampleChildClass();
+        samplechildclass.addition();
+        samplechildclass.multiply();
+        System.out.println("getting the variable from parent  : " + samplechildclass.name);
     }
 }

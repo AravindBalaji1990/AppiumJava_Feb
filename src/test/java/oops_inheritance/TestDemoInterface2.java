@@ -11,6 +11,11 @@ public class TestDemoInterface2 implements ITestDemoInterface {
     }
 
     @Override
+    public void demoRun() {
+
+    }
+
+    @Override
     public int multiply() {
         return 6 * 7;
     }

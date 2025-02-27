@@ -15,6 +15,10 @@ public class OverlaodingDemo {
         System.out.println("methods");
     }
 
+    public void samplemethod(int c, float b){
+
+    }
+
 
     public static void main(String[] args) {
         OverlaodingDemo overlaodingdemo = new OverlaodingDemo();

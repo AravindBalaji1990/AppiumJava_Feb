@@ -6,6 +6,7 @@ public interface ITestDemoInterface {
     String name = null;
 
     public void addition();
+    void demoRun();
 
      int multiply();
 

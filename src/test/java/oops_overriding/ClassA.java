@@ -2,7 +2,9 @@ package oops_overriding;
 
 public class ClassA {
 
-    public void Test(int a){
-        System.out.println("this is from parent class");
+    //partent class
+    public void Test(int a, int b) {
+        int result = a + b;
+        System.out.println("addition :" + a);
     }
 }

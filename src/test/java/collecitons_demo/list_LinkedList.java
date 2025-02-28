@@ -1,14 +1,14 @@
 package collecitons_demo;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
 
-public class list_ArrayList {
+public class list_LinkedList {
 
     public static void main(String[] args) {
         // differnet ways to initialise the list
 //        List<String> data = new ArrayList<>();
-        ArrayList<Object> data1 = new ArrayList<>();
+        LinkedList<String> data1 = new LinkedList<>();
 
         // store daat to the list
         data1.add("sample1");//0

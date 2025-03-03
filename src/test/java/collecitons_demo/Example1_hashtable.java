@@ -1,14 +1,19 @@
 package collecitons_demo;
 
+import java.util.Dictionary;
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
-public class Example1 {
+public class Example1_hashtable {
     public static void main(String[] args) {
         int num ;
         String str = "aapplleee";
-        // initialisation of hash map
-        Map<Object, Integer> charMap = new HashMap<Object, Integer>();
+        // Why this works ?
+        // map is a interface which has implementation for Treemap,LinkedHashmap,hashtable
+        Map<Object, Integer> charMap = new Hashtable<>();
+
+
 
         // convert string to character array
         char[] arr = str.toCharArray();

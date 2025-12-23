@@ -10,6 +10,7 @@ public class ConstrcutorDefaultExample {
     // constructor name should be same as the class name
     // default constrcutor - there is no parameter just the name of hte class is used
     public ConstrcutorDefaultExample() {
+        System.out.println("this is the default constructor");
     }
 
     public void demoSample() {

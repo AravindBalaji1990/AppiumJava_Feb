@@ -6,6 +6,10 @@ public class OverlaodingDemo {
         System.out.println("the name given  :  " +name);
     }
 
+    /*public void samplemethod(String fname){
+        System.out.println("the name given  :  " +fname);
+    }*/
+
     public void samplemethod(int a , int b){
         int result = a/b;
         System.out.println("the result set : " + result);

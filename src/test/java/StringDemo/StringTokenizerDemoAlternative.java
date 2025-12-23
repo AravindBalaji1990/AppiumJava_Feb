@@ -1,6 +1,5 @@
 package StringDemo;
 
-import java.util.StringTokenizer;
 
 public class StringTokenizerDemoAlternative {
 

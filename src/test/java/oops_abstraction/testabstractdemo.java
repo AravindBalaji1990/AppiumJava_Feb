@@ -7,6 +7,7 @@ public abstract class testabstractdemo {
     abstract int arithmeticOperation();
 
     // in the abstract class we can have mehtod with implementation as well
+    // concrete methods
     void sampletext() {
         System.out.println("this is a sample text");
     }

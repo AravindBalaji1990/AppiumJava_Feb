@@ -4,6 +4,16 @@ public class EncapsulationDemo {
     // POJO class (Plain Old Java Object) - Getter and Setter
     // it willalsso used to store the values and the use the values by consuming the variables
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age +78;
+    }
+
+    private int age;
+
     public String getName() {
         return name;
     }
